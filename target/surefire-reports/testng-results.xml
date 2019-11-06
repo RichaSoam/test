@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Started executing test suite: TestSuite]]>
+    </line>
+    <line>
+      <![CDATA[Started executing test EXLTestChrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Google Map PageActual Result:Google MapsExpected Result:Google Maps]]>
+    </line>
+    <line>
+      <![CDATA[Step Description:Verify Coordinates for the location=San Francisco, California
+Verification Passed.
+ Actual Result:37.7576793,-122.5076402Expected Result:37.7576793,-122.5076402]]>
+    </line>
+    <line>
+      <![CDATA[Step Description:Verify total number of the routes from Chico, California to San Francisco, California
+Verification Passed.
+ Actual Result:3Expected Result:3]]>
+    </line>
+    <line>
+      <![CDATA[TestName = null]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test EXLTestChrome]]>
+    </line>
+    <line>
+      <![CDATA[Started executing test EXLTestFF]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Google Map PageActual Result:Google MapsExpected Result:Google Maps]]>
+    </line>
+    <line>
+      <![CDATA[Step Description:Verify Coordinates for the location=San Francisco, California
+Verification Failed.
+ Actual Result:37.7576793,-122.5076401Expected Result:37.7576793,-122.5076402]]>
+    </line>
+    <line>
+      <![CDATA[Step Description:Verify total number of the routes from Chico, California to San Francisco, California
+Verification Passed.
+ Actual Result:3Expected Result:3]]>
+    </line>
+    <line>
+      <![CDATA[TestName = null]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="72661" started-at="2019-11-06T01:06:22 IST" finished-at="2019-11-06T01:07:35 IST">
+    <groups>
+    </groups>
+    <test name="EXLTestChrome" duration-ms="34514" started-at="2019-11-06T01:06:22 IST" finished-at="2019-11-06T01:06:57 IST">
+      <class name="tests.EXLTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.EXLTest@13a5fe33]" name="beforeMethod" is-config="true" duration-ms="12349" started-at="2019-11-06T01:06:22 IST" finished-at="2019-11-06T01:06:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateRouteDetails()[pri:0, instance:tests.EXLTest@13a5fe33]" name="validateRouteDetails" duration-ms="21217" started-at="2019-11-06T01:06:35 IST" finished-at="2019-11-06T01:06:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Google Map PageActual Result:Google MapsExpected Result:Google Maps]]>
+            </line>
+            <line>
+              <![CDATA[Step Description:Verify Coordinates for the location=San Francisco, California
+Verification Passed.
+ Actual Result:37.7576793,-122.5076402Expected Result:37.7576793,-122.5076402]]>
+            </line>
+            <line>
+              <![CDATA[Step Description:Verify total number of the routes from Chico, California to San Francisco, California
+Verification Passed.
+ Actual Result:3Expected Result:3]]>
+            </line>
+            <line>
+              <![CDATA[TestName = null]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateRouteDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.EXLTest@13a5fe33]" name="afterMethod" is-config="true" duration-ms="910" started-at="2019-11-06T01:06:56 IST" finished-at="2019-11-06T01:06:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.EXLTest -->
+    </test> <!-- EXLTestChrome -->
+    <test name="EXLTestFF" duration-ms="38014" started-at="2019-11-06T01:06:57 IST" finished-at="2019-11-06T01:07:35 IST">
+      <class name="tests.EXLTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.EXLTest@887af79]" name="beforeMethod" is-config="true" duration-ms="6937" started-at="2019-11-06T01:06:57 IST" finished-at="2019-11-06T01:07:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateRouteDetails()[pri:0, instance:tests.EXLTest@887af79]" name="validateRouteDetails" duration-ms="17104" started-at="2019-11-06T01:07:04 IST" finished-at="2019-11-06T01:07:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Google Map PageActual Result:Google MapsExpected Result:Google Maps]]>
+            </line>
+            <line>
+              <![CDATA[Step Description:Verify Coordinates for the location=San Francisco, California
+Verification Failed.
+ Actual Result:37.7576793,-122.5076401Expected Result:37.7576793,-122.5076402]]>
+            </line>
+            <line>
+              <![CDATA[Step Description:Verify total number of the routes from Chico, California to San Francisco, California
+Verification Passed.
+ Actual Result:3Expected Result:3]]>
+            </line>
+            <line>
+              <![CDATA[TestName = null]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateRouteDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.EXLTest@887af79]" name="afterMethod" is-config="true" duration-ms="13957" started-at="2019-11-06T01:07:21 IST" finished-at="2019-11-06T01:07:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.EXLTest -->
+    </test> <!-- EXLTestFF -->
+  </suite> <!-- TestSuite -->
+</testng-results>

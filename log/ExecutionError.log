@@ -1,0 +1,5 @@
+ERROR [2019 Nov 0601:22:18,951] - utils.Log.error [Log.java:29] : Class CommonMethods | Method openBrowser | Exception desc : java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:39695
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'LAPTOP-TNCPBSIO', ip: '192.168.29.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: EdgeDriver
+ERROR [2019 Nov 0601:22:18,955] - utils.Log.error [Log.java:29] : Class CommonMethods | Method openURL | Exception desc : null

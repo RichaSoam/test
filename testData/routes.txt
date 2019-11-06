@@ -1,0 +1,18 @@
+Route information for route #1
+************************************
+Route Title I-80 W
+Route Duration 2 h 56 min
+Route Distance 164 miles
+
+Route information for route #2
+************************************
+Route Title CA-99 S and I-80 W
+Route Duration 3 h 3 min
+Route Distance 170 miles
+
+Route information for route #3
+************************************
+Route Title CA-99 S
+Route Duration 3 h 31 min
+Route Distance 189 miles
+
